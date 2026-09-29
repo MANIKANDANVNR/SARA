@@ -1,0 +1,110 @@
+# ============================================================
+# SARA - Git Ignore
+# ============================================================
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# -------------------------
+# Virtual Environments
+# -------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# -------------------------
+# Environment Variables & Secrets
+# -------------------------
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+.idea/
+.vscode/
+*.iml
+
+# -------------------------
+# Testing & Coverage
+# -------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.pytest_cache/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+logs/
+
+# -------------------------
+# Operating System Files
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Temporary / Backup Files
+# -------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# -------------------------
+# Private Runtime Data
+# -------------------------
+data/
+
+# -------------------------
+# Generated AI / Model Files
+# -------------------------
+models/
+
+# -------------------------
+# Generated Audio
+# -------------------------
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# -------------------------
+# Build / Distribution
+# -------------------------
+dist/
+build/
+*.egg-info/
+
+# -------------------------
+# Local Debug Output
+# -------------------------
+debug/
+
+# -------------------------
+# Python Packaging
+# -------------------------
+pip-wheel-metadata/
+*.whl
+
+# -------------------------
+# OS / Tool Caches
+# -------------------------
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
